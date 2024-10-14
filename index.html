@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src = "index.js" defer></script>
+
+    <p class = "carList"></p>
+    <div>
+        <ul>
+            <li>What would you like to do?</li>
+            <li>Type "A" to add a car</li>
+            <li>Type "B" to display a car's information</li>
+            <li>Type "C" to update a car's information</li>
+            <li>Type "D" to delete a car</li>
+            
+        </ul>
+
+        <label for="attribute">Type Letter</label>
+        <input type="text" id="choice" />
+        <button onclick="command()">Go!</button>
+    </div>
+    <p class = "desiredCarInformation"></p>
+    <p class = "changedCarInformation"></p>
+    <p class = "deletedCarInformation"></p>
+</body>
+</html>
